@@ -1,6 +1,8 @@
 import React, { Component, PropsType } from 'react';
 import ReactDom, { render } from 'react-dom';
+import { Router, Route, Link, hashHistory } from 'react-router';
 
+import Index from './components/Index/index.react';
 import ButtonDemo from './components/button/demo.react';
 
 class ECComponents extends Component {
@@ -10,10 +12,10 @@ class ECComponents extends Component {
 
   render() {
     return (
-      <div>
-        <h1 className='text-center'>Components for react project.</h1>
-        <ButtonDemo />
-      </div>
+      <Router history={ hashHistory }>
+        <Route path='/' component={ Index } />
+        <Route path='button' component={ ButtonDemo } />
+      </Router>
     );
   }
 };
