@@ -11,6 +11,11 @@ export default class Index extends Component {
     return (
       <div>
         <Link className='text-info ' to='button'>Button</Link>
+        <br />
+        <Link className='text-info ' to='button2'>Button2</Link>
+        <br />
+        <Link className='text-info ' to='tab'>Tab</Link>
+
       </div>
     );
   }
