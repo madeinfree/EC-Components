@@ -19,9 +19,6 @@ export default class Demo extends Component {
             <BasicButton type='default' used='bootstrap' />
             <BasicButton type='success' used='bootstrap' />
             <BasicButton type='primary' used='bootstrap' />
-            <BasicButton type='warning' used='bootstrap' />
-            <BasicButton type='danger' used='bootstrap' />
-            <BasicButton type='info' used='bootstrap' />
         </div>
         <div>
           <h2>TEMPLATE BUTTONS</h2>
