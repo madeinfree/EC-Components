@@ -1,6 +1,21 @@
 {
   "name": "quirk",
   "version": "1.0.0",
+  "description": "Theme Component for es project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.config.js --content-base ./example"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Whien",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madeinfree/EC-Components.git"
+  },
   "author": "Themepixels",
   "homepage": "http://themepixels.com/demo/webpage/quirk",
   "devDependencies": {
